@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.santa.timeout.MainActivity">
+
+    <com.example.santa.timeout.TimeViewComm
+        android:id="@+id/time1"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tvc_textSize="38sp" />
+
+    <com.example.santa.timeout.TimeViewComm
+        android:id="@+id/time2"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tvc_backgroundColor="#ff2196F3"
+        app:tvc_radius="0dp"/>
+
+    <com.example.santa.timeout.TimeViewFlicker
+        android:id="@+id/time3"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tvc_textSize="40sp"
+        app:tvc_backgroundColor="?android:colorBackground"
+        app:tvc_textColor="@android:color/black"
+        app:tvc_textPaddingHorizantal="0dp"/>
+
+    <com.example.santa.timeout.TimeViewFlicker
+        android:id="@+id/time4"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tvc_textSize="50sp"
+        android:background="@drawable/bg_time"
+        app:tvc_backgroundColor="#00000000"
+        app:tvc_spaceColor = "@android:color/white"
+        app:tvc_textColor="@android:color/white"
+        app:tvc_textPaddingHorizantal="0dp"/>
+
+    <com.example.santa.timeout.TimeViewScroll
+        android:id="@+id/time5"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tvs_backgroundColor="#ff009688"/>
+
+    <com.example.santa.timeout.TimeViewScroll
+        android:id="@+id/time6"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:tvs_backgroundColor="?android:colorBackground"
+        app:tvs_textColor="@android:color/black"
+        app:tvs_textSize="40sp"
+        app:tvs_textPaddingHorizantal="0dp"/>
+
+
+</LinearLayout>

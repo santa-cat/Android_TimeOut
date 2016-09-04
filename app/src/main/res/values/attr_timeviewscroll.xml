@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeViewScroll">
+        <attr name="tvs_backgroundColor" format="color"/>
+        <attr name="tvs_textColor" format="color"/>
+        <attr name="tvs_textSize" format="dimension"/>
+        <attr name="tvs_textPaddingHorizantal" format="dimension"/>
+    </declare-styleable>
+</resources>

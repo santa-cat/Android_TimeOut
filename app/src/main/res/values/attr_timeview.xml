@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TimeViewComm">
+        <attr name="tvc_backgroundColor" format="color"/>
+        <attr name="tvc_textColor" format="color"/>
+        <attr name="tvc_spaceColor" format="color"/>
+        <attr name="tvc_textSize" format="dimension"/>
+        <attr name="tvc_radius" format="dimension"/>
+        <attr name="tvc_textPaddingHorizantal" format="dimension"/>
+        <attr name="tvc_textPaddingVertical" format="dimension"/>
+    </declare-styleable>
+</resources>
